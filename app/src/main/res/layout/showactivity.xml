@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/button"
+        android:text="点击"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/edit_query"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="下面是自定义view实现的"
+        android:textColor="#ff0000"
+        android:textSize="20.0sp" />
+
+    <com.dxxx.flowlayoutdemo.somedemo.MyTextview
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#bfbfbf"
+        android:padding="3dp"
+        app:texcontent="我是输入的内容abYhszx我是输入的内容我是输入的内容我是输入的内容我是输入的内容XX" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="下面是自定义viewgroup实现的"
+        android:textColor="#ff0000"
+        android:textSize="20.0sp" />
+
+    <com.dxxx.flowlayoutdemo.somedemo.MyTextview_Viewgroup
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:background="#bfbfbf"
+        android:padding="3dp"
+        app:texcontent="我是输入的内容abYhszx我是输入的内容我是输入的内容我是输入的内容我是输入的内容XX" />
+</LinearLayout>
